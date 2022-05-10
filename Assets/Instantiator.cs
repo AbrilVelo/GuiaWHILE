@@ -9,11 +9,11 @@ public class Instantiator : MonoBehaviour
     public int cont;
     public void CloneObject()
     {
-       
-       while(cont > 0)
+        int num = cont;
+       while(num > 0)
         {
             Instantiate(objectToClone);
-            cont--;
+            num--;
         }
         
     }
